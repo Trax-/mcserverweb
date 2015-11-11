@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Mobile specific Meta -->
-    <meta name="viewport" content="width = device-width, initial-scale = 1, maximum-scale = 1 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Minecraft and Modpack site">
@@ -28,6 +28,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/minecraft.css">
 
 </head>
 <body>
@@ -46,7 +47,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#section-modpack">ModPack</a></li>
+                <li><a href="#section-modpack">Mods</a></li>
                 <li><a href="#section-features">Features</a></li>
                 <li><a href="#section-gallery">Gallery</a></li>
                 <li><a href="#section-faq">Faq</a></li>
@@ -108,41 +109,38 @@
                 <img src="images/feature-3.jpg" alt="Feature Image" class="img-responsive">
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="panel panel-default text-center">
-                    <div class="panel-body">
-                        <span class="glyphicon glyphicon-search">
-                            <h4>This is another feature</h4>
-                            <p>This feature is awesome for this product.</p>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="panel panel-default text-center">
-                    <div class="panel-body">
-                        <span class="glyphicon glyphicon-ok">
-                            <h4>This is another feature</h4>
-                            <p>This feature is awesome for this product.</p>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="panel panel-default text-center">
-                    <div class="panel-body">
-                        <span class="glyphicon glyphicon-time">
-                            <h4>This is another feature</h4>
-                            <p>This feature is awesome for this product.</p>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 </div>
-
+<div class="container">
+    <section>
+        <div class="page-header" id="section-modpack">
+            <h2>Mods
+                <small>These are the current mods installed on the server</small>
+            </h2>
+        </div>
+    </section>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Wiki</th>
+            </tr>
+            <tr>
+                <td><a href="http://ae-mod.info/Downloads" target="_blank">Applied Energistics 2</a></td>
+                <td>A Mod about Matter, Energy and using them to conquer the world..</td>
+                <td><a href="http://ae2.ae-mod.info" target="_blank">ae2.ae-mod.info</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://minecraft.curseforge.com/projects/baubles/files/2224857" target="_blank">Baubles</a>
+                </td>
+                <td>Adds additional inventory slots to the player</td>
+                <td><a href="http://minecraft.curseforge.com/projects/baubles" target="_blank">Baubles</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 </body>
 </html>
