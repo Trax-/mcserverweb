@@ -1,0 +1,8 @@
+{
+  "clientId": "354396746550-decj4n7hev4aqo4pi5pvlqd7vp8k6l46.apps.googleusercontent.com",
+  "serviceAccountEmail": "account-1@ocsnet1.iam.gserviceaccount.com",
+  "serviceAccountPrivateKeyFile": "extras/ocsnet1-bd0cb80e8753.pem",
+  "widgetUrl": "http://www.ocsnet.org/oauth2callback.html",
+  "cookieName": "gtoken"
+}
+ 

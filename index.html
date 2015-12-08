@@ -29,7 +29,19 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/minecraft.css">
-
+    <script type="text/javascript" src="//www.gstatic.com/authtoolkit/js/gitkit.js"></script>
+    <link type=text/css rel=stylesheet href="//www.gstatic.com/authtoolkit/css/gitkit.css"/>
+    <script type=text/javascript>
+        window.google.identitytoolkit.signInButton(
+                '#navbar', // accepts any CSS selector
+                {
+                    widgetUrl: "http://www.ocsnet.org/oauth2callback.html",
+                    signOutUrl: "/",
+                    loginFirst: true,
+                    cookieName: "gtoken"
+                }
+        );
+    </script>
 </head>
 <body>
 
@@ -53,6 +65,7 @@
                 <li><a href="#section-faq">Faq</a></li>
                 <li><a href="#section-contact">Contact</a></li>
             </ul>
+            <div id="navbar"></div>
         </div>
     </div>
 </nav>
